@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+api-env/
+cowrie-env/
+
+# Logs and generated data
+var/
+*.log
+collector/normalized_events.json
+collector/normalizer.state
+collector/normalizer.state.bak
+
+# Secrets and local configuration
+.env
+.env.*
+*.pem
+*.key
+response-agent/credentials*
+
+# Local editor files
+.vscode/
+.idea/
+etc/cowrie.cfg
